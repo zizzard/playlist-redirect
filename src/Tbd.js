@@ -2,9 +2,11 @@
 function Tbd ({found}) {
   return (
     <div className="App">
-      {
-        found ? ("Coming soon...") : ("Please check the url you entered...")
-      }
+      <div className="redirect">
+        {
+          found ? ("Coming soon...") : ("Please check the url you entered...")
+        }
+      </div>
     </div>
     
 
