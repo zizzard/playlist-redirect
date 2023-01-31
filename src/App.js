@@ -13,7 +13,7 @@ function App() {
           path="/antonia"
           key="app"
           element={
-            <Redirect to="https://open.spotify.com/playlist/7B21r9ohvC8jnlsJkJb5SU?si=cc6874ffe7bc4d8a&pt=30baf32a0559ff78746f3a251cbdbda5" />
+            <Redirect to="https://open.spotify.com/playlist/7B21r9ohvC8jnlsJkJb5SU?si=14f4d1b3e3dc46e9" />
           }
         />
         <Route
@@ -21,7 +21,7 @@ function App() {
           path="/colston"
           key="app"
           element={
-            <Redirect to="https://open.spotify.com/playlist/1pC5ZeW894yZSdNYWQ5ibS?si=b79df83590184209&pt=5099e95a7771fbf5c197ed49c4059298" />
+            <Redirect to="https://open.spotify.com/playlist/1pC5ZeW894yZSdNYWQ5ibS?si=3c26feef49774205" />
           }
         />
         <Route
@@ -29,7 +29,7 @@ function App() {
           path="/emma"
           key="app"
           element={
-            <Redirect to="https://open.spotify.com/playlist/69RuqofLBowMJJexntfqot?si=a4b5ac86f4874213&pt=6eeb75e1e836027ed0f330e5aa65f888" />
+            <Redirect to="https://open.spotify.com/playlist/69RuqofLBowMJJexntfqot?si=577bfac7af55404e" />
           }
         />
         <Route
@@ -45,7 +45,7 @@ function App() {
           path="/jon"
           key="app"
           element={
-            <Redirect to="https://open.spotify.com/playlist/48fOQxCKtjxef7uzKw9we2?si=c89ca35919fe4e71&pt=205ae213ee927b4863e5a45e4071fc28" />
+            <Redirect to="https://open.spotify.com/playlist/48fOQxCKtjxef7uzKw9we2?si=7ab851b9bd364175" />
           }
         />
         <Route
@@ -53,7 +53,7 @@ function App() {
           path="/karty"
           key="app"
           element={
-            <Redirect to="https://open.spotify.com/playlist/7BlcTJXWuHPPSsuJVt0q0n?si=711fac0532ef41e3&pt=3f428235baeb7192d55d6be8a57fe34c" />
+            <Redirect to="https://open.spotify.com/playlist/7BlcTJXWuHPPSsuJVt0q0n?si=0fd010a860224001" />
           }
         />
         <Route
@@ -61,7 +61,7 @@ function App() {
           path="/kevin"
           key="app"
           element={
-            <Redirect to="https://open.spotify.com/playlist/4ARxcDGvSDh4J1u5niOTAU?si=bf38a74775784024&pt=6e9ba003dbe94a17c93b0a4fdf70b918" />
+            <Redirect to="https://open.spotify.com/playlist/4ARxcDGvSDh4J1u5niOTAU?si=e76aa85750cf4f44" />
           }
         />
         <Route
@@ -69,7 +69,7 @@ function App() {
           path="/lara"
           key="app"
           element={
-            <Redirect to="https://open.spotify.com/playlist/37TFLRCUAyGMg4FFOqndVF?si=e15285eae22d492f&pt=4c6edc015e5493c402fff63ae54a9736" />
+            <Redirect to="https://open.spotify.com/playlist/37TFLRCUAyGMg4FFOqndVF?si=7e3e516d8d774c09" />
           }
         />
         <Route
@@ -77,7 +77,7 @@ function App() {
           path="/lotte"
           key="app"
           element={
-            <Redirect to="https://open.spotify.com/playlist/4PW1cvUDpaoiIFhdJJWDw2?si=379bfca041f84138&pt=dc9a27bfe3918fbe83f97d392b5509a5" />
+            <Redirect to="https://open.spotify.com/playlist/4PW1cvUDpaoiIFhdJJWDw2?si=9bc7fd094fa64100" />
           }
         />
         <Route
@@ -85,7 +85,7 @@ function App() {
           path="/maddie"
           key="app"
           element={
-            <Redirect to="https://open.spotify.com/playlist/5wFSOmsAYMyooK3iOTobGW?si=9e235cc02947416c&pt=4e643140974b77cf39cc15fe66279d0f" />
+            <Redirect to="https://open.spotify.com/playlist/5wFSOmsAYMyooK3iOTobGW?si=d9af23965ec648ec" />
           }
         />
         <Route
@@ -93,7 +93,7 @@ function App() {
           path="/randi"
           key="app"
           element={
-            <Redirect to="https://open.spotify.com/playlist/1wV1ptkYhUYoBoTstxaem1?si=b8f96f2c799c4421&pt=11cc8e1ec8fade52b784eea8f47b64b7" />
+            <Redirect to="https://open.spotify.com/playlist/1wV1ptkYhUYoBoTstxaem1?si=28c895148b0249e9" />
           }
         />
         <Route
@@ -101,11 +101,41 @@ function App() {
           path="/shreya"
           key="app"
           element={
-            <Redirect to="https://open.spotify.com/playlist/63MlIPFbs39pvVg6VWNof6?si=813f50c1a6eb4c49&pt=796d2ad89c6fdf02fea98053a638ad6f" />
+            <Redirect to="https://open.spotify.com/playlist/63MlIPFbs39pvVg6VWNof6?si=46d0faee4dda4ad5" />
           }
         />
-
-        <Route exact path="/alex" key="app" element={<Tbd found={true} />} />
+        <Route
+          exact
+          path="/alex"
+          key="app"
+          element={
+            <Redirect to="https://open.spotify.com/playlist/5acPydIb0r5MDnnvMjK9tk?si=8fed13ea3cc14b9a" />
+          }
+        />
+        <Route
+          exact
+          path="/leo"
+          key="app"
+          element={
+            <Redirect to="https://open.spotify.com/playlist/2foCUu6FWipX19HZQ4VJDE?si=abeea40e01fd4b4b" />
+          }
+        />
+        <Route
+          exact
+          path="/nolan"
+          key="app"
+          element={
+            <Redirect to="https://open.spotify.com/playlist/2rf3ee0kCHOb3NHxKPm2fM?si=87c1fabdfee94694" />
+          }
+        />
+        <Route
+          exact
+          path="/mom"
+          key="app"
+          element={
+            <Redirect to="https://open.spotify.com/playlist/2ZwBRGAcG0zCYgFNZQVDsL?si=20fc732492c14194" />
+          }
+        />
         <Route exact path="/becca" key="app" element={<Tbd found={true} />} />
         <Route exact path="/dad" key="app" element={<Tbd found={true} />} />
         <Route exact path="/ian" key="app" element={<Tbd found={true} />} />
@@ -115,9 +145,6 @@ function App() {
           key="app"
           element={<Tbd found={true} />}
         />
-        <Route exact path="/leo" key="app" element={<Tbd found={true} />} />
-        <Route exact path="/mom" key="app" element={<Tbd found={true} />} />
-        <Route exact path="/nolan" key="app" element={<Tbd found={true} />} />
         <Route exact path="/zach" key="app" element={<Tbd found={true} />} />
         <Route exact path="/zain" key="app" element={<Tbd found={true} />} />
 
