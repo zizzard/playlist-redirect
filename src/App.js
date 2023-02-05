@@ -136,17 +136,47 @@ function App() {
             <Redirect to="https://open.spotify.com/playlist/2ZwBRGAcG0zCYgFNZQVDsL?si=20fc732492c14194" />
           }
         />
-        <Route exact path="/becca" key="app" element={<Tbd found={true} />} />
-        <Route exact path="/dad" key="app" element={<Tbd found={true} />} />
-        <Route exact path="/ian" key="app" element={<Tbd found={true} />} />
+        <Route
+          exact
+          path="/becca"
+          key="app"
+          element={
+            <Redirect to="https://open.spotify.com/playlist/1NH7GB78mgeV7vo0Z2von4?si=215b77174e224807" />
+          }
+        />
+        <Route
+          exact
+          path="/dad"
+          key="app"
+          element={
+            <Redirect to="https://open.spotify.com/playlist/4R2EFv8vMvz8XdcRAVQVCa?si=88d2e20df72242af" />
+          }
+        />
+        <Route
+          exact
+          path="/ian"
+          key="app"
+          element={
+            <Redirect to="https://open.spotify.com/playlist/2DmtoaYPmr1XBHrKUg9ZeY?si=f6e50cd6bf4f4fe3" />
+          }
+        />
+        <Route
+          exact
+          path="/zain"
+          key="app"
+          element={
+            <Redirect to="https://open.spotify.com/playlist/0SZgXWZTUHSKkj8PC9R1Vj?si=8d0267d3ecaf4166" />
+          }
+        />
         <Route
           exact
           path="/jeanette"
           key="app"
-          element={<Tbd found={true} />}
+          element={
+            <Redirect to="https://open.spotify.com/playlist/6Y94oFoz1yhKEA0wltGyU7?si=a0377048c228424e" />
+          }
         />
         <Route exact path="/zach" key="app" element={<Tbd found={true} />} />
-        <Route exact path="/zain" key="app" element={<Tbd found={true} />} />
 
         <Route exact path="/*" key="app" element={<Tbd found={false} />} />
       </Routes>
